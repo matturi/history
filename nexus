@@ -1,0 +1,63 @@
+135  sudo systemctl start nexus
+  136  vim /opt/sonatype-work/nexus3/etc/nexus.properties nexus-context-path=/nexus
+  137  vim /opt/sonatype-work/nexus3/etc/nexus.properties 
+  138  ls
+  139  cd /etc/
+  140  cd ..
+  141  cd /home/
+  142  cd /etc/httpd/conf.d
+  143  cd /opt/
+  144  cd ..
+  145  cd /opt/
+  146  cd ..
+  147  whereis nexus.conf
+  148  vim /etc/httpd/conf.d
+  149  ls
+  150  whereis httpd
+  151  yum install httpd
+  152  sudo yum install httpd
+  153  kill 4148
+  154  sudo yum install httpd
+  155  kill -9 4148
+  156  sudo yum install httpd
+  157  httpd --version
+  158  https -version
+  159  httpd -version
+  160  whereis httpd
+  161  cd /etc/httpd/
+  162  ls
+  163  ifconig
+  164  cd ..
+  165  ifconfig
+  166  clear
+  167  vim /etc/httpd/conf.d/
+  168  whereis nexus.conf
+  169  clear
+  170  cat /etc/httpd/conf.d
+  171  cat /etc/httpd/conf.d/
+  172  cat nexus.conf
+  173  cd /etc/httpd/
+  174  ls
+  175  cd conf.d/
+  176  ls
+  177  vi nexus.conf
+  178  sudo mkdir /var/log/nexus
+  179  cd
+  180  apchectl configtest
+  181  cd /etc/httpd/conf.d/
+  182  apchectl configtest
+  183  cd /var/log/nexus/
+  184  apchectl configtest
+  185  apachectl configtest
+  186  sudo systemctl httpdrestart
+  187  sudo systemctl httpd restart
+  188  cd
+  189  sudo systemctl httpd restart
+  190  su - nexus
+  191  su - tomcat 
+  192  git --version
+  193  git -version
+  194  maven --version
+  195  yum install git maven -y
+  196  vim /etc/maven/settings.xml 
+  197  history
